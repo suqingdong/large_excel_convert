@@ -1,8 +1,8 @@
 {
     "prog": "large_excel_convert",
-    "desc": "Convert Large Excel File to CSV",
+    "desc": "Convert Large Excel File to CSV/TSV",
     "url": "https://github.com/suqingdong/large_excel_convert",
     "author": "suqingdong",
     "author_email": "suqingdong1114@gmail.com",
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
