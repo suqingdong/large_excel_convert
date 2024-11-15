@@ -4,7 +4,7 @@ from lxml import etree
 
 
 class ExcelParser(object):
-    def __init__(self, file, tag='row', sheet=1, chunksize=1024*1024):
+    def __init__(self, file, tag='row', sheet=1, chunksize=4096):
         self.sheet = sheet
         self.chunksize = chunksize
         self.zip_handle = zipfile.ZipFile(file)

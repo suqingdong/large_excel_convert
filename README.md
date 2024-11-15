@@ -18,7 +18,6 @@ large_excel_convert -i input.xlsx -o output.csv
 large_excel_convert -i input.xlsx -o output.csv -enc gb18030
 large_excel_convert -i input.xlsx -o output.tsv -f tsv
 large_excel_convert -i input.xlsx -o sheet2.csv -s 2
-large_excel_convert -i input.xlsx -o sheet2.csv --chunksize 2M
 ```
 
 ### Use in Python
