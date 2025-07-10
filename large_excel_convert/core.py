@@ -55,5 +55,6 @@ class ExcelParser(object):
                 value = v.text if v is not None else ''
 
             value = value.strip().replace('\n', ';')
+            value = value.replace('\t', ' ')
 
             yield value
